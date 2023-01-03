@@ -1,0 +1,40 @@
+:root {
+    --main-font: Roboto;
+    --font-size: 18px;
+    --line-height: 1.5;
+    --color: #cacaca;
+    --background: #08020d;
+}
+
+@media (max-width: 770px) {
+    h1 {
+        font-size: 60px;
+        line-height: 90px;
+        font-weight: bold;
+        text-transform: capitalize;
+    }
+
+    h2 {
+        font-size: 38px;
+        line-height: 57px;
+        font-weight: bold;
+        text-transform: capitalize;
+    }
+}
+
+@media (max-width: 480px) {
+    h1 {
+        font-size: 30px;
+        line-height: 45px;
+        font-weight: bold;
+        text-transform: capitalize;
+    }
+
+    h2 {
+        font-size: var(--font-size);
+        line-height: 27px;
+        font-weight: bold;
+        text-transform: capitalize;
+    }
+}
+
