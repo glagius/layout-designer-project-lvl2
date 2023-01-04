@@ -21,10 +21,19 @@
   },
   "homepage": "https://github.com/glagius/layout-designer-project-lvl2#readme",
   "dependencies": {
+    "gulp": "^4.0.2",
+    "gulp-cli": "^2.3.0",
     "htmlhint": "^1.1.4",
     "stylelint": "^14.16.1",
     "stylelint-config-rational-order": "^0.1.2",
     "stylelint-config-standard": "^29.0.0",
     "stylelint-order": "^5.0.0"
+  },
+  "devDependencies": {
+    "browser-sync": "^2.27.11",
+    "gulp-clean-css": "^4.3.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-sass": "^5.1.0",
+    "sass": "^1.57.1"
   }
 }
